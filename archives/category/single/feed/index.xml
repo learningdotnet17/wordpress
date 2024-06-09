@@ -12,8 +12,8 @@
 
 <channel>
 	<title>home-video-image &#8211; Photos © Brijesh Chawla</title>
-	<atom:link href="/archives/category/single/feed" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://learningdotnet17.github.io/wordpress/archives/category/single/feed" rel="self" type="application/rss+xml" />
+	<link>https://learningdotnet17.github.io/wordpress/</link>
 	<description></description>
 	<lastBuildDate>Sun, 09 Jun 2024 16:57:58 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -24,7 +24,7 @@
 	<generator>https://wordpress.org/?v=6.5.4</generator>
 	<item>
 		<title>Fullscreen Portfolio Gallery</title>
-		<link>/archives/117</link>
+		<link>https://learningdotnet17.github.io/wordpress/archives/117</link>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Thu, 26 Apr 2018 11:24:52 +0000</pubDate>

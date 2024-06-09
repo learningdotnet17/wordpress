@@ -11,8 +11,8 @@
 <channel>
 	<title>
 	Comments for Photos © Brijesh Chawla	</title>
-	<atom:link href="/comments/feed" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://learningdotnet17.github.io/wordpress/comments/feed" rel="self" type="application/rss+xml" />
+	<link>https://learningdotnet17.github.io/wordpress/</link>
 	<description></description>
 	<lastBuildDate>Sun, 09 Jun 2024 16:57:58 +0000</lastBuildDate>
 	<sy:updatePeriod>

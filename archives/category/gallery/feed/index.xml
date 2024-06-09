@@ -12,8 +12,8 @@
 
 <channel>
 	<title>Gallery &#8211; Photos © Brijesh Chawla</title>
-	<atom:link href="/archives/category/gallery/feed" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://learningdotnet17.github.io/wordpress/archives/category/gallery/feed" rel="self" type="application/rss+xml" />
+	<link>https://learningdotnet17.github.io/wordpress/</link>
 	<description></description>
 	<lastBuildDate>Sun, 09 Jun 2024 16:56:53 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -24,7 +24,7 @@
 	<generator>https://wordpress.org/?v=6.5.4</generator>
 	<item>
 		<title>Solo Tree at Gibbet Hill</title>
-		<link>/archives/427</link>
+		<link>https://learningdotnet17.github.io/wordpress/archives/427</link>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Thu, 06 Jun 2024 02:59:05 +0000</pubDate>
@@ -40,7 +40,7 @@
 		<post-id xmlns="com-wordpress:feed-additions:1">427</post-id>	</item>
 		<item>
 		<title>Pink Lady Apple</title>
-		<link>/archives/425</link>
+		<link>https://learningdotnet17.github.io/wordpress/archives/425</link>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Thu, 06 Jun 2024 02:56:40 +0000</pubDate>
@@ -56,8 +56,8 @@
 		<post-id xmlns="com-wordpress:feed-additions:1">425</post-id>	</item>
 		<item>
 		<title>Full moon at Long Lake</title>
-		<link>/archives/404</link>
-					<comments>/archives/404#respond</comments>
+		<link>https://learningdotnet17.github.io/wordpress/archives/404</link>
+					<comments>https://learningdotnet17.github.io/wordpress/archives/404#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Thu, 06 Jun 2024 02:50:36 +0000</pubDate>
@@ -69,15 +69,15 @@
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
-					<wfw:commentRss>/archives/404/feed</wfw:commentRss>
+					<wfw:commentRss>https://learningdotnet17.github.io/wordpress/archives/404/feed</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">404</post-id>	</item>
 		<item>
 		<title>Rhodo Island</title>
-		<link>/archives/400</link>
-					<comments>/archives/400#respond</comments>
+		<link>https://learningdotnet17.github.io/wordpress/archives/400</link>
+					<comments>https://learningdotnet17.github.io/wordpress/archives/400#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Thu, 06 Jun 2024 02:45:24 +0000</pubDate>
@@ -88,7 +88,7 @@
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
-					<wfw:commentRss>/archives/400/feed</wfw:commentRss>
+					<wfw:commentRss>https://learningdotnet17.github.io/wordpress/archives/400/feed</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

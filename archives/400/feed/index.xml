@@ -11,8 +11,8 @@
 <channel>
 	<title>
 	Comments on: Rhodo Island	</title>
-	<atom:link href="/archives/400/feed" rel="self" type="application/rss+xml" />
-	<link>/archives/400</link>
+	<atom:link href="https://learningdotnet17.github.io/wordpress/archives/400/feed" rel="self" type="application/rss+xml" />
+	<link>https://learningdotnet17.github.io/wordpress/archives/400</link>
 	<description></description>
 	<lastBuildDate>Sun, 09 Jun 2024 16:56:53 +0000</lastBuildDate>
 	<sy:updatePeriod>
