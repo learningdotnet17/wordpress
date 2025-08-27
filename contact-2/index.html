@@ -97,8 +97,101 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
   gtag('config', 'G-5PW8MZVDX8');</script>
 <style type="text/css">#turnkey-credit { font-family: Tahoma,Sans,Arial,Helvetica,Verdana,sans-serif; font-size: 11px; text-align: center; } #turnkey-credit a { text-decoration: none; } #turnkey-credit a:hover { text-decoration: underline; } body.wp-admin #turnkey-credit, body#image #turnkey-credit, body#media-upload #turnkey-credit { display: none; }</style>
 <style type="text/css">#turnkey-credit { font-family: Tahoma,Sans,Arial,Helvetica,Verdana,sans-serif; font-size: 11px; text-align: center; } #turnkey-credit a { text-decoration: none; } #turnkey-credit a:hover { text-decoration: underline; } body.wp-admin #turnkey-credit, body#image #turnkey-credit, body#media-upload #turnkey-credit { display: none; }</style>
+<style type="text/css" id="contact-page-fonts">
+/* Contact page font fixes - ONLY target main content area, NOT header */
+
+/* Only target the Contact heading in the main content area */
+body.page-id-441 .about-contant .page-header h1.page-title,
+body.page-id-441 .about-contant #primary .page-header h1,
+body.page-id-441 .about-contant #primary h1 {
+    font-family: 'Rajdhani', 'Arial Black', Impact, sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 30px !important;
+}
+
+/* Only target text in the main content area */
+body.page-id-441 .about-contant .entry-content p,
+body.page-id-441 .about-contant .entry-content a,
+body.page-id-441 .about-contant #primary p,
+body.page-id-441 .about-contant #primary a {
+    font-family: 'Roboto Condensed', 'Arial Narrow', Arial, sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 1.533 !important;
+}
+
+/* Force load the fonts if they're not loading */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+/* Logo enhancement - subtle outline effects */
+.custom-logo {
+    /* Option 1: Subtle glow/blur effect with transparency */
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.7)) 
+            drop-shadow(0 0 15px rgba(255, 255, 255, 0.3)) 
+            drop-shadow(0 0 3px rgba(0, 0, 0, 0.4));
+    
+    /* Option 2: Simple white outline (uncomment to try this instead)
+    filter: drop-shadow(1px 1px 0 white) 
+            drop-shadow(-1px -1px 0 white) 
+            drop-shadow(1px -1px 0 white) 
+            drop-shadow(-1px 1px 0 white);
+    */
+    
+    /* Smooth transition for hover effects */
+    transition: filter 0.3s ease;
+}
+
+.custom-logo:hover {
+    /* Slightly enhanced effect on hover */
+    filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.8)) 
+            drop-shadow(0 0 20px rgba(255, 255, 255, 0.4)) 
+            drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+}
+
+/* Fix alignment between logo and site title */
+#site-branding {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.custom-logo-link {
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0; /* Prevent logo from shrinking */
+}
+
+#site-detail {
+    display: flex;
+    align-items: center;
+    margin: 0; /* Remove any default margins */
+}
+
+#site-title {
+    margin: 0 !important; /* Ensure no margin pushes text up */
+    line-height: 1.2;
+}
+
+/* Ensure the logo enhancement works on all devices */
+@media (max-width: 768px) {
+    .custom-logo {
+        filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.6)) 
+                drop-shadow(0 0 12px rgba(255, 255, 255, 0.2)) 
+                drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
+    }
+    
+    /* Maintain alignment on mobile */
+    #site-branding {
+        gap: 10px; /* Smaller gap on mobile */
+    }
+    
+    #site-title {
+        font-size: smaller; /* Adjust text size if needed on mobile */
+    }
+}
+</style>
 </head>
-<body class="page-template page-template-page-templates page-template-aboutus-template page-template-page-templatesaboutus-template-php page page-id-441 wp-custom-logo wp-embed-responsive  gutenberg about-template">
+<body class="page-template page-template-page-templates page-template-aboutus-template page-template-page-templatesaboutus-template-php page page-id-441 wp-custom-logo wp-embed-responsive  gutenberg about-template contact-template">
 	<div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#site-content-contain">Skip to content</a>
 	<!-- Masthead ============================================= -->
@@ -160,7 +253,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 	<!-- Main Page Start ============================================= -->
 	<div id="site-content-contain" class="site-content-contain">
 		<div id="content" class="site-content">
-		<div class="about-contant post-441 page type-page status-publish has-post-thumbnail hentry" style="background-image:url('./../wp-content/uploads/2024/06/20211031-DSC00628-Edit.jpg');">
+		<div class="about-contant contact-content post-441 page type-page status-publish has-post-thumbnail hentry" style="background-image:url('./../wp-content/uploads/2024/06/20211031-DSC00628-Edit.jpg');">
 	<div class="wrap">
 		<div id="primary" class="content-area">
 			<main id="main" class="site-main" role="main">
@@ -284,7 +377,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <script type="text/javascript" src="./../wp-content/themes/photograph/js/isotope-setting.js?ver=6.7.2" id="photograph-isotope-setting-js"></script>
 <script type="text/javascript" src="./../wp-content/themes/photograph/assets/fancybox/js/jquery.fancybox.min.js?ver=6.7.2" id="fancybox-js"></script>
 <script type="text/javascript" src="./../wp-content/themes/photograph/assets/fancybox/js/fancybox-settings.js?ver=6.7.2" id="photograph-fancybox-settings-js"></script>
-<div id="turnkey-credit"> <div style="clear: both;"> <a href="https://www.turnkeylinux.org/wordpress">WordPress Appliance</a> - Powered by <a href="https://www.turnkeylinux.org/">TurnKey Linux</a> </div> </div>
-<div id="turnkey-credit"> <div style="clear: both;"> <a href="https://www.turnkeylinux.org/wordpress">WordPress Appliance</a> - Powered by <a href="https://www.turnkeylinux.org/">TurnKey Linux</a> </div> </div>
+
 </body>
 </html>

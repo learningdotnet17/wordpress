@@ -4502,6 +4502,73 @@ input.search-field {
 	font-size: 30px;
 }
 
+/* Enhanced readability for contact page */
+.about-template .about-contant #primary {
+	background: rgba(0, 0, 0, 0.4);
+	padding: 40px;
+	border-radius: 8px;
+	backdrop-filter: blur(3px);
+	-webkit-backdrop-filter: blur(3px);
+}
+
+.about-template .about-contant #primary h1,
+.about-template .about-contant #primary p,
+.about-template .about-contant #primary a {
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Use consistent fonts matching the rest of the site - Higher specificity to override existing rules */
+.about-template.contact-template .about-contant.contact-content #primary h1,
+.about-template.contact-template .about-contant.contact-content .page-header h1,
+.contact-template .contact-content #primary h1,
+.contact-template .contact-content .page-header h1 {
+	font-family: "Rajdhani", sans-serif !important;
+	font-weight: 600 !important;
+}
+
+.about-template.contact-template .about-contant.contact-content #primary p,
+.about-template.contact-template .about-contant.contact-content #primary a,
+.about-template.contact-template .about-contant.contact-content .entry-content,
+.about-template.contact-template .about-contant.contact-content .entry-content p,
+.contact-template .contact-content #primary p,
+.contact-template .contact-content #primary a,
+.contact-template .contact-content .entry-content,
+.contact-template .contact-content .entry-content p {
+	font-family: "Roboto Condensed", "Helvetica Neue", helvetica, arial, sans-serif !important;
+	font-weight: 400 !important;
+	font-size: 15px !important;
+	line-height: 1.533 !important;
+}
+
+.about-template .about-contant .page-header {
+	background: rgba(0, 0, 0, 0.6);
+	padding: 20px 30px;
+	border-radius: 8px 8px 0 0;
+	margin-bottom: 0;
+}
+
+.about-template .about-contant .entry-content {
+	background: rgba(0, 0, 0, 0.4);
+	padding: 30px;
+	border-radius: 0 0 8px 8px;
+}
+
+/* Ensure text remains visible on mobile */
+@media only screen and (max-width: 767px) {
+	.about-template .about-contant #primary {
+		padding: 20px;
+		margin: 20px;
+	}
+	
+	.about-template .about-contant .page-header {
+		padding: 15px 20px;
+	}
+	
+	.about-template .about-contant .entry-content {
+		padding: 20px;
+	}
+}
+
 
 
 
